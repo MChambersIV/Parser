@@ -4,9 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Parser
+      <header>
+        <p className="App-header-left">
+          Left
+        </p>
+        <p className="App-header-right">
+          Right
         </p>
         
       </header>
