@@ -11,10 +11,13 @@ function App() {
         
       </header>
       <div className="App-box">
-        <p>
-          box
-        </p>
-        <input type="datetime-local"></input>
+        <form>
+          <label>
+            <input type="text"></input>
+          </label>
+          
+          <input type="submit" value="Submit"></input>
+        </form>
       </div>
     </div>
   );
